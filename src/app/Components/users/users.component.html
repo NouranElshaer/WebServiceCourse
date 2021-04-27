@@ -1,0 +1,56 @@
+<!-- <table class="table text-center">
+    <thead class="thead-light">
+      <tr>
+        <th scope="col" rowspan="2">ID</th>
+        <th scope="col" rowspan="2">Name</th>
+        <th scope="col" rowspan="2">Phone</th>
+        <th scope="col" rowspan="2">Email</th>
+        <th scope="col" class="text-center" colspan="2">Address</th>
+      </tr>
+      <tr>
+        <th scope="col">City</th>
+        <th scope="col">Street</th>
+      </tr>
+    </thead>
+    <tbody class="text-center">
+      <tr *ngFor="let user of users"> -->
+        <!-- <th scope="row">1</th> -->
+        <!-- <td><a routerLink="{{user.id}}">{{user.id}}</a></td> -->
+        <!-- <td>{{user.id}}</td> -->
+        <!-- <td>{{user.name}}</td>
+        <td>{{user.phone}}</td>
+        <td>{{user.email}}</td>
+        <td>{{user.address.city}}</td>
+        <td>{{user.address.street}}</td>
+      </tr>
+    </tbody>
+  </table> -->
+
+<!-- <app-useritem *ngFor="let u of users" [user]="u"></app-useritem> -->
+<table class="table text-center">
+  <thead class="thead-light">
+    <tr>
+      <th scope="col">ID</th>
+      <th scope="col">Name</th>
+      <th scope="col">Email</th>
+      <th scope="col">Status</th>
+      <th scope="col">CRUD</th>
+     </tr>
+  </thead>
+  <tbody class="text-center">
+    <tr *ngFor="let user of users">
+      <td>{{user.id}}</td>
+      <td>{{user.name}}</td>
+      <td>{{user.email}}</td>
+      <td>{{user.status}}</td>
+      <td><a class="btn btn-primary m-2" routerLink="{{user.id}}">View </a><!--<a class="btn btn-success m-2" routerLink="newuser">Add </a> --><a class="btn btn-danger m-2" (click)="OpenDelete(user)">Delete </a></td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+
+
+
+

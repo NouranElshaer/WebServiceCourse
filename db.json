@@ -1,7 +1,67 @@
 {
-    "users":[
-        {
-            
-        }
-    ]
+  "users": [
+    {
+      "id": 1,
+      "name": "KOKO",
+      "email": "kok@gmail.com",
+      "phone": "0125407953",
+      "address": {
+        "city": "Mans",
+        "street": "Gam3a"
+      }
+    },
+    {
+      "id": 2,
+      "name": "SOSO",
+      "email": "sos@gmail.com",
+      "phone": "0101846073",
+      "address": {
+        "city": "Mans",
+        "street": "Gam3a"
+      }
+    },
+    {
+      "id": 3,
+      "name": "bbb",
+      "email": "bbb@gmail.com",
+      "phone": "0125407953",
+      "address": {
+        "city": "Mans",
+        "street": "Gam3a"
+      }
+    },
+    {
+      "id": 4,
+      "name": "mmm",
+      "email": "mmm@gmail.com",
+      "phone": "0110268741",
+      "address": {
+        "city": "Mans",
+        "street": "Gam3a"
+      }
+    },
+    {
+      "name": "qqq",
+      "phone": "123",
+      "email": "nouranelshaer11@gmail.com",
+      "id": 6,
+      "address": {
+        "city": "Mans",
+        "street": "Gam3a"
+      }
+    },
+    {
+      "name": "xxx",
+      "phone": "01259876",
+      "email": "qwe@gmail.com",
+      "id": 7,
+      "address": {
+        "city": "Mans",
+        "street": "Gam3a"
+      }
+    },
+    {
+      "id": 8
+    }
+  ]
 }

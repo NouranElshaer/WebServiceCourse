@@ -1,0 +1,31 @@
+<div class="alert alert-dark">
+    <!-- <h3 appCustom>{{user.id}}</h3> -->
+    <!-- <h3><a routerLink="{{user.id}}">{{user.email}}</a></h3> -->
+<!-- </div> -->
+<table class="table text-center">
+    <thead class="thead-light">
+      <tr>
+        <th scope="col" rowspan="2">ID</th>
+        <th scope="col" rowspan="2">Name</th>
+        <th scope="col" rowspan="2">Phone</th>
+        <th scope="col" rowspan="2">Email</th>
+        <th scope="col" class="text-center" colspan="2">Address</th>
+      </tr>
+      <tr>
+        <th scope="col">City</th>
+        <th scope="col">Street</th>
+      </tr>
+    </thead>
+    <tbody class="text-center">
+      <tr>
+        <!-- <th scope="row">1</th> -->
+        <td><a routerLink="{{user.id}}">{{user.id}}</a></td>
+        <!-- <td>{{user.id}}</td> -->
+        <td>{{user.name}}</td>
+        <td>{{user.phone}}</td>
+        <td>{{user.email}}</td>
+        <td>{{user.id}}</td>
+        <td>{{user.id}}</td>
+      </tr>
+    </tbody>
+  </table>
